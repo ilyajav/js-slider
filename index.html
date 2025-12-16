@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Yeseva+One&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://use.fontawesome.com/aa2391fb57.js"></script>
+  <link rel="stylesheet" href="css/index.css" />
+  <title>IC "Repair Design Project"</title>
+</head>
+<body>
+  <div class="appartaments" id="appartaments">
+    <div class="container">
+      <div class="appartaments__wrapper">
+        <div class="appartaments__info-tab">
+          <span class="title appartaments__tab" onclick="handleCurrentSlide(0)">Rostov-on-Don, Admiral</span>
+          <span class="title appartaments__tab" onclick="handleCurrentSlide(1)">Sochi Thieves</span>
+          <span class="title appartaments__tab" onclick="handleCurrentSlide(2)">Rostov-on-Don Patriotic</span>
+        </div>
+
+        <div class="appartaments__item">
+          <div class="appartaments__item-left">
+            <h2 class="title appartaments__title">
+              Completed<br />
+              projects
+            </h2>
+            <p class="text appartaments__text">
+              Only a small part of the work performed by our company is presented on the site. For 14 years on in the
+              construction market we have made happy more than 1000 families
+            </p>
+            <div class="appartaments__info">
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">City:</h3>
+                <p class="text appartaments__info-text">
+                  Rostov-on-Don<br />
+                  LCD admiral
+                </p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">apartment area:</h3>
+                <p class="text appartaments__info-text">81 m<sup>2</sup></p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">Repair time:</h3>
+                <p class="text appartaments__info-text">3.5 months</p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">Repair Cost:</h3>
+                <p class="text appartaments__info-text">Upon request</p>
+              </div>
+            </div>
+          </div>
+          <div class="appartaments__item-right">
+            <img src="images/slide1.jpg" alt="" class="slider-img" />
+          </div>
+        </div>
+
+        <div class="appartaments__item">
+          <div class="appartaments__item-left">
+            <h2 class="title appartaments__title">
+              Completed<br />
+              projects
+            </h2>
+            <p class="text appartaments__text">
+              Only a small part of the work performed by our company is presented on the site. For 14 years on in the
+              construction market we have made happy more than 1000 families
+            </p>
+            <div class="appartaments__info">
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">City:</h3>
+                <p class="text appartaments__info-text">
+                  Sochi<br />
+                  Thieves
+                </p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">apartment area:</h3>
+                <p class="text appartaments__info-text">105 m<sup>2</sup></p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">Repair time:</h3>
+                <p class="text appartaments__info-text">4 months</p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">Repair Cost:</h3>
+                <p class="text appartaments__info-text">Upon request</p>
+              </div>
+            </div>
+          </div>
+          <div class="appartaments__item-right">
+            <img src="images/slide2.jpg" alt="" class="slider-img" />
+          </div>
+        </div>
+
+        <div class="appartaments__item">
+          <div class="appartaments__item-left">
+            <h2 class="title appartaments__title">
+              Completed<br />
+              projects
+            </h2>
+            <p class="text appartaments__text">
+              Only a small part of the work performed by our company is presented on the site. For 14 years on in the
+              construction market we have made happy more than 1000 families
+            </p>
+            <div class="appartaments__info">
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">City:</h3>
+                <p class="text appartaments__info-text">
+                  Rostov-on-Don<br />
+                  Patriotic
+                </p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">apartment area:</h3>
+                <p class="text appartaments__info-text">93 m<sup>2</sup></p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">Repair time:</h3>
+                <p class="text appartaments__info-text">3 months</p>
+              </div>
+              <div class="appartaments__info-item">
+                <h3 class="title appartaments__info-title">Repair Cost:</h3>
+                <p class="text appartaments__info-text">Upon request</p>
+              </div>
+            </div>
+          </div>
+          <div class="appartaments__item-right">
+            <img src="images/slide3.jpg" alt="" class="slider-img" />
+          </div>
+        </div>
+
+        <div class="slider-arrow">
+          <img src="icons/arrow-left.svg" alt="" class="slider-arrow-left" onclick="handleMinusSlide()" />
+          <img src="icons/arrow-right.svg" alt="" class="slider-arrow-right" onclick="handlePlusSlide()" />
+          <div class="slider-dots">
+            <span class="slider-dots_item" onclick="handleCurrentSlide(0)"></span>
+            <span class="slider-dots_item" onclick="handleCurrentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="handleCurrentSlide(2)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
